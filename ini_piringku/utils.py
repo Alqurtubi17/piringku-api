@@ -96,7 +96,7 @@ def preprocess_akg_data(akg_data):
 def preprocess_food_data(akg_df):
     # Load and preprocess food data
 
-    food_df = pd.read_csv('https://drive.google.com/uc?id=1nxQ87RoinZB_X20bUJyOqXYDPI1i2Zye')
+    food_df = pd.read_csv('https://raw.githubusercontent.com/Alqurtubi17/piringku-api/main/ini_piringku/Makanan.csv')
 
     # Calculate nutrient scores for each food
     nutrients = ['Energi', 'Protein', 'Lemak', 'Karbohidrat']
