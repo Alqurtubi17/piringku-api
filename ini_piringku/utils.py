@@ -112,3 +112,5 @@ def calculate_nutrient_scores_tfidf(food_df):
     vectorizer = TfidfVectorizer()
     nutrient_scores_tfidf = vectorizer.fit_transform(food_df['nutrient_scores_text'])
     return nutrient_scores_tfidf
+
+
